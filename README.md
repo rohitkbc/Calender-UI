@@ -1,7 +1,7 @@
 
 ## 📌Calender UI
 
-This project developed using pure html, css and javascript.
+This project developed using pure html, css and javascript having responsiveness.
 
 
 
