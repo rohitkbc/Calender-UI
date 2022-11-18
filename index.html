@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Calender</title>
+</head>
+
+<body>
+    <div style="margin-top: 10vh;">
+        <div class="center">
+            <select id="month" class="dropdown">
+                <option value="" disabled selected>Select Month</option>
+                <option value="jan">Jan</option>
+                <option value="feb">Feb</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="sept">Sept</option>
+                <option value="oct">Oct</option>
+                <option value="nov">Nov</option>
+                <option value="dec">Dec</option>
+            </select>
+
+            <select id="year" class="dropdown" style="margin-left: 25px;">
+                <option value="" disabled selected>Select Year</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+                <option value="2004">2004</option>
+                <option value="2005">2005</option>
+                <option value="2006">2006</option>
+                <option value="2007">2007</option>
+                <option value="2008">2008</option>
+                <option value="2009">2009</option>
+                <option value="2010">2010</option>
+                <option value="2011">2011</option>
+                <option value="2012">2012</option>
+            </select>
+        </div>
+        <div class="calendar center">
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>SUN</th>
+                        <th>MON</th>
+                        <th>TUE</th>
+                        <th>WED</th>
+                        <th>THU</th>
+                        <th>FRI</th>
+                        <th>SAT</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td id="1">1</td>
+                        <td id="2">2</td>
+                    </tr>
+                    <tr></tr>
+                    <tr>
+                        <td id="3">3</td>
+                        <td id="4">4</td>
+                        <td id="5">5</td>
+                        <td id="6">6</td>
+                        <td id="7">7</td>
+                        <td id="8">8</td>
+                        <td id="9">9</td>
+                    </tr>
+                    <tr>
+                        <td id="10">10</td>
+                        <td id="11">11</td>
+                        <td id="12">12</td>
+                        <td id="13">13</td>
+                        <td id="14">14</td>
+                        <td id="15">15</td>
+                        <td id="16">16</td>
+                    </tr>
+                    <tr>
+                        <td id="17">17</td>
+                        <td id="18">18</td>
+                        <td id="19">19</td>
+                        <td id="20">20</td>
+                        <td id="21">21</td>
+                        <td id="22">22</td>
+                        <td id="23">23</td>
+                    </tr>
+                    <tr>
+                        <td id="24">24</td>
+                        <td id="25">25</td>
+                        <td id="26">26</td>
+                        <td id="27">27</td>
+                        <td id="28">28</td>
+                        <td id="29">29</td>
+                        <td id="30">30</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="center" style="margin-top: 40px;">
+            <input class="input" type="number" id="input-date" placeholder="Enter Any Date" />
+            <input class="btn" type="button" value="ENTER" onclick="changeColor()" />
+        </div>
+    </div>
+
+</body>
+
+</html>
